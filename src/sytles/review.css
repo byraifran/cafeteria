@@ -1,0 +1,24 @@
+.review .review-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3.75rem;
+}
+.review .review-container .review-box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+    margin: 75px 0;
+    background-color: rgba(206, 167, 111, 0.3);
+    border-radius: 10px;
+}
+.review .review-container .review-box p {
+    font-size: 2rem;
+    padding: 2rem 0;
+    line-height: 1.5;
+}
+.review .review-container .review-box .review-user {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}

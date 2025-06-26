@@ -1,0 +1,24 @@
+/* home */
+.home {
+     min-height: 100vh;
+}
+.home-container {
+    background-image: url("/src/image/home-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    padding: 300px 0 0 300px;
+}
+.home-content {
+    max-width: 40%;    
+}
+.home-content h3 {
+    font-size: 10rem;
+    text-transform: uppercase;
+}
+.home-content p {
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1.8;
+}
